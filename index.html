@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Senai - CSS Grid Layout</title>
+    
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico">
+</head>
+<body>
+    <div class="grid-container">
+        <!-- Logo -->
+         <div class="area_0">
+            <img src="imagens/logo-senai.png" alt="Logo Senai">
+         </div>
+
+         <!-- Cabeçalho -->
+          <div class="area_1">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Cursos Senai</a></li>
+                    <li><a href="#">Institucional</a></li>
+                    <li><a href="#">Serviços de Tecnologia</a></li>
+                    <li><a href="#">Transparência</a></li>
+                </ul>
+            </div>
+          </div>
+          <!-- Busca -->
+           <div class="area_2">
+            <div class="input-group input-group-lg">
+                <span class="input-group-text" id="inputGroup-sizing-lg">
+                    Faça a pesquisa
+                    <input type="text" class="form-control" placeholder="Digite aqui...">
+                    <button type="button" class="btn-btn-success">Buscar</button>
+                </span>
+            </div>
+           </div>
+
+           <!-- Lateral Esquerda -->
+            <div class="area_3">
+                <div class="area mb-4">
+                    <h4>Área</h4>
+                    <input class="form-control" type="text" placeholder="Digite a área">
+                </div>
+                <div class="regiao">
+                    <h4>Região</h4>
+                    <input class="form-control" type="text" placeholder="Digite a região">
+                </div>
+                <br>
+                <button type="button" class="btn-btn-primary">Localizar</button>
+            </div>
+
+            <!-- Conteudo 1 -->
+             <div class="area_4">
+                <img src="imagens/slide3.png" class="img-fluid" alt="Imagem 1">
+             </div>
+            <!-- Conteudo 2 -->
+             <div class="area_5">
+                <img src="imagens/slide2.png" class="img-fluid" alt="Imagem 2">
+             </div>
+            <!-- Conteudo 3 -->
+             <div class="area_6">
+                <img src="imagens/slide4.png" class="img-fluid" alt="Imagem 3">
+             </div>
+            <!-- Conteudo 4 -->
+             <div class="area_7">
+                <img src="imagens/slide6.png" class="img-fluid" alt="Imagem 4">
+             </div>
+             <!-- Rodapé -->
+              <div class="area_8">
+                Senai-Sp | Todos os direitos reservador - 2026
+              </div>
+    </div>
+</body>
+</html>
